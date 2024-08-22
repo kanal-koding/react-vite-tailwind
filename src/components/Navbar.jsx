@@ -6,6 +6,7 @@ import { Link } from 'react-scroll';
 
 // eslint-disable-next-line no-unused-vars
 import { FaBars, FaTimes, FaSearch } from 'react-icons/fa';
+import ThemeToggle from './ThemeToggle';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -27,6 +28,7 @@ const Navbar = () => {
           <Link to="projects" spy={true} smooth={true} offset={-70} duration={500} className="hover:text-gray-400 cursor-pointer">Projects</Link>
           <Link to="products" spy={true} smooth={true} offset={-70} duration={500} className="hover:text-gray-400 cursor-pointer">Products</Link>
           <Link to="contact" spy={true} smooth={true} offset={-70} duration={500} className="hover:text-gray-400 cursor-pointer">Contact</Link>
+          <ThemeToggle/>
         </div>
         <div className="md:hidden flex items-center">
           <button onClick={toggleMenu} className="text-gray-400 focus:outline-none">
@@ -42,6 +44,7 @@ const Navbar = () => {
             <Link onClick={toggleMenu} to="projects" spy={true} smooth={true} offset={-70} duration={500} className="block text-gray-400 hover:text-white cursor-pointer">Projects</Link>
             <Link onClick={toggleMenu} to="products" spy={true} smooth={true} offset={-70} duration={500} className="block text-gray-400 hover:text-white cursor-pointer">Products</Link>
             <Link onClick={toggleMenu} to="contact" spy={true} smooth={true} offset={-70} duration={500} className="block text-gray-400 hover:text-white cursor-pointer">Contact</Link>
+            <ThemeToggle/>
           </div>
         </div>
       )}

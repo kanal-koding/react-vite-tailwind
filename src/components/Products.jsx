@@ -28,11 +28,11 @@ const Products = () => {
   
     return (
       // <section className="bg-white text-gray-900 py-16">
-      <section id="products" className="bg-gray-900 text-white py-16">
+      <section id="products" className="dark:bg-gray-200 dark:text-gray-900 bg-gray-900 text-white py-16">
         <div className="container mx-auto px-6 lg:px-12">
           <div className="text-center font-bold mb-6">
             <h2 className="text-3xl lg:text-4xl font-bold mb-6">Our Products</h2>
-            <p className="text-base lg:text-lg text-gray-400">
+            <p className="dark:text-gray-600 text-base lg:text-lg text-gray-400">
               Explore our range of high-quality products that meet your needs.
             </p>
           </div>

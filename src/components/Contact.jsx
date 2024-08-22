@@ -1,10 +1,10 @@
 const Contact = () => {
     return (
-      <section id="contact" className="bg-gray-900 text-white py-16">
+      <section id="contact" className="dark:bg-gray-200 dark:text-gray-900 bg-gray-900 text-white py-16">
         <div className="container mx-auto px-6 lg:px-12">
           <div className="text-center mb-12">
             <h2 className="text-3xl lg:text-4xl font-bold mb-6">Contact Us</h2>
-            <p className="text-base lg:text-lg text-gray-400">
+            <p className="text-base lg:text-lg text-gray-400 dark:text-gray-600">
               We love to hear from you! Please fill out the form below to get in touch.
             </p>
           </div>

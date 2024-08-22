@@ -37,11 +37,11 @@ const Projects = () => {
       // <section className="bg-gray-100 text-gray-900 py-16">
 
       // ini warna background agak gelap
-      <section id="projects" className="bg-gray-900 text-white py-16">
+      <section id="projects" className="dark:bg-gray-200 dark:text-gray-900 bg-gray-900 text-white py-16">
         <div className="container mx-auto px-6 lg:px-12">
           <div className="text-center mb-12">
             <h2 className="text-3xl lg:text-4xl font-bold mb-6">Our Projects</h2>
-            <p className="teaxt-base lg:text-lg text-gray-400">
+            <p className="teaxt-base lg:text-lg dark:text-gray-600 text-gray-400">
               Here are some of the projects we have worked on recently.
             </p>
           </div>
